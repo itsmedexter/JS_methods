@@ -20,3 +20,30 @@ slice(), slice(beginIndex[, endIndex optional] )
 replace(), replace(value1, value2)
 // what you want to replace, then what you want to replace it with
 // sample: 'baseball is fun'.replace('fun', 'boring') = 'baseball is boring'
+
+Logical &&
+// sample: abc.length === 3 && 3 === abc.length
+// both sides must be true in order for the whole thing to be true
+
+Logical ||
+// !true === false || !false === false : true
+// OR if either side is true, it is true. 
+// sample
+// const color = 'green';
+
+// if(color === 'purple' || color === 'pink' || color === 'green') {
+//   console.log('NICE PICK!')
+// } else {
+//   console.log('That is OK.')
+// }
+
+Logical !
+// ! NOT returns true if the expression is false
+// sample:
+// const flavor = 'cherry';
+
+// if(flavor !== 'grape' && flavor !== 'cherry') {
+//   console.log('We have only grape or cherry.')
+// } else {
+//   console.log('Here you go!')
+// }
